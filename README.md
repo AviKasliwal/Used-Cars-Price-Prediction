@@ -20,3 +20,24 @@ predicting the **prices** of used cars across the country.
 |11|Seats| The number of seats in the car.|
 |12|New_Price| The price of a new car of the same model.|
 |13|Price| The price of the used car in INR Lakhs.|
+
+## Prepairing Dataset For Analysis
+| # | Feature | Coorections or Manipulations |
+|:--|:-------:|:-----------:|
+|1|Name|* Name contained the model of the car and the brand name. I created a new feature __Brand__ extracting the brand name.
+* Spelling errors were corrected.|
+|2|Location| _*Nothing changed*_|
+|3|Year| _*Nothing changed*_|
+|4|Kilometers_Driven| _*Nothing changed*_|
+|5|Fuel_Type|* Col renamed.|
+|6|Transmission| _*Nothing changed*_|
+|7|Owner_Type|* Col renamed|
+|8|Mileage|* Units were removed.
+* Dtype changed to float|
+|9|Engine| * Units were removed.
+* Dtype changed to int|
+|10|Power| * Units were removed.
+* Dtype changed to float|
+|11|Seats|* Missing value for one car was searched and rewritten.|
+|12|New_Price|* the col was removed for lots of missing values.|
+|13|Price| _*Nothing changed*_|
