@@ -24,20 +24,20 @@ predicting the **prices** of used cars across the country.
 ## Prepairing Dataset For Analysis
 | # | Feature | Coorections or Manipulations |
 |:--|:-------:|:-----------:|
-|1|Name|* Name contained the model of the car and the brand name. I created a new feature __Brand__ extracting the brand name.
-* Spelling errors were corrected.|
+|1|Name|Name contained the model of the car and the brand name. I created a new feature __Brand__ extracting the brand name.Spelling errors were corrected.|
 |2|Location| _*Nothing changed*_|
 |3|Year| _*Nothing changed*_|
 |4|Kilometers_Driven| _*Nothing changed*_|
-|5|Fuel_Type|* Col renamed.|
+|5|Fuel_Type|Col renamed.|
 |6|Transmission| _*Nothing changed*_|
-|7|Owner_Type|* Col renamed|
-|8|Mileage|* Units were removed.
-* Dtype changed to float|
-|9|Engine| * Units were removed.
-* Dtype changed to int|
-|10|Power| * Units were removed.
-* Dtype changed to float|
-|11|Seats|* Missing value for one car was searched and rewritten.|
-|12|New_Price|* the col was removed for lots of missing values.|
+|7|Owner_Type|Col renamed|
+|8|Mileage|Units were removed. Dtype changed to __float__|
+|9|Engine|Units were removed. Dtype changed to __int__|
+|10|Power|Units were removed. Dtype changed to __float__|
+|11|Seats|Missing value for one car was searched and rewritten.|
+|12|New_Price|The col was removed for lots of missing values.|
 |13|Price| _*Nothing changed*_|
+
+Apart from these, cars with missing values for ['Engine', 'Mileage', 'Power', 'Seats'] were removed.
+
+:weary: :weary: :weary:
